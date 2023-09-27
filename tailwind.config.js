@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"], // look for tailwind css only in these directories with extension html/css. ignore every other directory
+  content: ["./src/**//*.{html,js}"], // look for tailwind css only in these directories with extension html/css. ignore every other directory
   theme: {
     extend: {
       height:{
