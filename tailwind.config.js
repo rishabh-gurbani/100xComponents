@@ -6,6 +6,9 @@ module.exports = {
   ], // look for tailwind css only in these directories with extension html/css. ignore every other directory
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       height:{
         "10.5":"2.625rem",
         "15":"3.75rem",
